@@ -1,0 +1,10 @@
+.gitignore
+.loadpath
+.project
+.settings/
+log/*.log
+nbproject
+.nfs*
+*.swp
+*.pyc
+*.o
