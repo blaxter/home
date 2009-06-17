@@ -74,6 +74,7 @@ augroup myfiletypes
   autocmd!
   " autoindent with two spaces, always expand tabs
   autocmd FileType ruby,eruby,yaml set ts=2 sts=2 sw=2 et
+  autocmd FileType c,cpp set ts=2 sts=2 sw=2 et
 augroup END
 
 " markdown filetype file
