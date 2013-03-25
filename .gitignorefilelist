@@ -8,3 +8,10 @@ nbproject
 *.swp
 *.pyc
 *.o
+debian/
+*changes
+*orig.tar.gz
+*.dsc
+*.tar.gz
+*sublime-project
+*sublime-workspace

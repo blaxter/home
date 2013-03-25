@@ -91,6 +91,8 @@ augroup END
 " Highlight useless whitespace
 highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\| \+\ze\t/
+inoremap <C-s> <esc>:w<cr>a
+nnoremap <C-s> :w<cr>a
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event

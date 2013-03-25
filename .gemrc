@@ -1,5 +1,5 @@
 ---
-gem: --rdoc --no-ri
+gem: --no-rdoc --no-ri
 :benchmark: false
 :update_sources: true
 :bulk_threshold: 1000
@@ -8,4 +8,3 @@ gem: --rdoc --no-ri
 :sources:
 - http://gems.rubyforge.org
 - http://gems.github.com
-rdoc: --inline-source --line-numbers --template=hanna
