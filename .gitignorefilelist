@@ -15,3 +15,7 @@ debian/
 *.tar.gz
 *sublime-project
 *sublime-workspace
+.autonose*
+.coverage
+nosetests.xml
+.pydevproject
