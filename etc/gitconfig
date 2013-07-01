@@ -3,6 +3,8 @@
   co = checkout
   st = status
   diffindex = diff-index -p -M -b -w --color HEAD
+  c = cherry-pick
+  rprune = remote prune origin
 
 [apply]
   whitespace = strip
@@ -17,7 +19,7 @@
 
 [core]
   excludesfile = /home/blaxter/.gitignorefilelist
-    pager = less -FRSX
+  pager = less -FRSX
 
 ### Color customizations ###
 
