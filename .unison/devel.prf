@@ -1,0 +1,6 @@
+# Unison preferences file
+root = /home/blaxter/devel
+root = ssh://blaxter@bicosyes.com/devel
+ignore = Path .metadata
+ignore = Name *.o
+ignore = Name *.pyc
