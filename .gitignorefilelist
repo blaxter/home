@@ -19,3 +19,4 @@ debian/
 .coverage
 nosetests.xml
 .pydevproject
+.gitattributes

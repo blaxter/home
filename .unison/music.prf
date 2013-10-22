@@ -1,4 +1,5 @@
 # Unison preferences file
 root = /home/blaxter/Music
 root = ssh://blaxter@bicosyes.com/Music
-ignore = Name *.srf
+perms = 0
+ignore = Name *.sfk

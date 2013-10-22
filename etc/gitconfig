@@ -6,9 +6,6 @@
   c = cherry-pick
   rprune = remote prune origin
 
-[apply]
-  whitespace = strip
-
 [color]
   branch      = auto
   diff        = auto

@@ -2,6 +2,6 @@ sudo apt-get update
 sudo apt-get install aptitude
 sudo aptitude update
 sudo aptitude upgrade
-sudo aptitude install clementine kde-config-grub2 grub-splashimages openvpn build-essential vagrant python-virtualenv python-pip openjdk-7-jdk mysql-server mysql-client s3cmd sqlite3 pyside-tools yakuake kvirc leafpad terminator unison2.27.57 unison2.27.57-gtk rsync wine eclipse libgtk2-trayicon-perl libcrypt-ssleay-perl libwww-mechanize-perl libdatetime-perl vim exuberant-ctags ruby ruby-dev python-dev libgtk2-trayicon-perl libcrypt-ssleay-perl libwww-mechanize-perl libdatetime-perl libfreetype6-dev libjpeg-dev libjpeg-turbo8-dev libjpeg62 libjpeg8-dev libldap2-dev libmysqlclient-dev libsasl2-dev zlib1g-dev numlockx ack-grep python-boto python-nose gstreamer0.10-plugins-bad ipython
+sudo aptitude install clementine kde-config-grub2 grub-splashimages openvpn build-essential vagrant python-virtualenv python-pip openjdk-7-jdk mysql-server mysql-client s3cmd sqlite3 pyside-tools yakuake kvirc leafpad terminator unison2.27.57 unison2.27.57-gtk rsync wine eclipse libgtk2-trayicon-perl libcrypt-ssleay-perl libwww-mechanize-perl libdatetime-perl vim exuberant-ctags ruby ruby-dev python-dev libgtk2-trayicon-perl libcrypt-ssleay-perl libwww-mechanize-perl libdatetime-perl libfreetype6-dev libjpeg-dev libjpeg-turbo8-dev libjpeg62 libjpeg8-dev libldap2-dev libmysqlclient-dev libsasl2-dev zlib1g-dev numlockx ack-grep python-boto python-nose gstreamer0.10-plugins-bad ipython cdbs
 
 
