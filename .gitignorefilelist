@@ -20,3 +20,4 @@ debian/
 nosetests.xml
 .pydevproject
 .gitattributes
+*.egg-info

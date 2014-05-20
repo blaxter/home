@@ -76,6 +76,7 @@ augroup myfiletypes
   autocmd FileType ruby,eruby,yaml set ts=2 sts=2 sw=2 et
   autocmd FileType cpp set ts=2 sts=2 sw=2 et
   autocmd FileType c set noet ci pi ts=8 sts=0 sw=8
+  autocmd FileType objc set noet ci pi ts=8 sts=0 sw=8
 augroup END
 
 " markdown filetype file
