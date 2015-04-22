@@ -77,6 +77,7 @@ augroup myfiletypes
   autocmd FileType cpp set ts=2 sts=2 sw=2 et
   autocmd FileType c set noet ci pi ts=8 sts=0 sw=8
   autocmd FileType objc set noet ci pi ts=8 sts=0 sw=8
+  autocmd Filetype make setlocal ts=8 sts=0 sw=8
 augroup END
 
 " markdown filetype file
@@ -91,10 +92,28 @@ augroup mkd
 augroup END
 
 " Highlight useless whitespace
-highlight RedundantWhitespace ctermbg=red guibg=red
-match RedundantWhitespace /\s\+$\| \+\ze\t/
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$\| \+\ze\t/
+match ExtraWhitespace /[^\t]\zs\t\+/
+au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhitespace /\s\+$/
+
 inoremap <C-s> <esc>:w<cr>a
 nnoremap <C-s> :w<cr>a
+
+nnoremap <C-h> :call<SID>LongLineHLToggle()<cr>
+hi OverLength ctermbg=none cterm=none
+match OverLength /\%>80v/
+fun! s:LongLineHLToggle()
+ if !exists('w:longlinehl')
+  let w:longlinehl = matchadd('ErrorMsg', '.\%>80v', 0)
+  echo "Long lines highlighted"
+ else
+  call matchdelete(w:longlinehl)
+  unl w:longlinehl
+  echo "Long lines unhighlighted"
+ endif
+endfunction
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event
@@ -104,3 +123,5 @@ autocmd BufReadPost *
     \   exe "normal g`\"" |
     \ endif
 augroup END
+
+"autocmd BufNewFile,BufRead COMMIT_EDITMSG setlocal spell

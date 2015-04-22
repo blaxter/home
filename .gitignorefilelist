@@ -21,3 +21,5 @@ nosetests.xml
 .pydevproject
 .gitattributes
 *.egg-info
+vendor-modules
+.cproject

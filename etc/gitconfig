@@ -5,6 +5,7 @@
   diffindex = diff-index -p -M -b -w --color HEAD
   c = cherry-pick
   rprune = remote prune origin
+  m = merge --no-ff --no-commit
 
 [color]
   branch      = auto
