@@ -1,7 +1,7 @@
 runtime! macros/matchit.vim
 runtime! debian.vim
 
-colorscheme torte
+colorscheme zellner
 syntax on
 
 :highlight Normal guibg=Black guifg=White

@@ -8,7 +8,6 @@ nbproject
 *.swp
 *.pyc
 *.o
-debian/
 *changes
 *orig.tar.gz
 *.dsc
@@ -23,3 +22,5 @@ nosetests.xml
 *.egg-info
 vendor-modules
 .cproject
+.tags
+reset

@@ -9,4 +9,5 @@ ignore = Path desktop/main/zentyal/desktop/per_platform/windows/build
 ignore = Name desktop/main/zentyal/desktop/per_platform/windows/*.exe
 ignore = Path openchange/script/bug-analysis/apport-sandbox-cache
 ignore = Path zinc-puppet/envs/openchange/.vagrant
+ignore = Path zinc-puppet/envs/small/.vagrant
 ignore = Name *.crash.gz
