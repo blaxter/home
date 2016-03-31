@@ -27,7 +27,7 @@
   remote  = green
 
 [color "diff"]
-  meta = blue bold
+  meta = blue blink reverse
   frag = magenta bold
   old  = red bold
   new  = green bold
@@ -42,3 +42,10 @@
   compact-mode = true
   main-window-maximized = true
   main-window-geometry = 0x0+0+0
+
+[user]
+        email = blaxter@gmail.com
+            name = Jesús García Sáez
+[push]
+        default = upstream
+
